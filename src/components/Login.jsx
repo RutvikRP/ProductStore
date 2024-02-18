@@ -23,6 +23,7 @@ const Login = ({ setLoggedIn }) => {
       });
 
       if (!response.ok) {
+        alert(`use username is = kminchelle\nuse password = 0lelplR`);
         throw new Error("Login failed");
       }
 
